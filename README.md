@@ -1,2 +1,2 @@
-# CDAC-Python-Programming
+# CDAC-PGCP-AI
 
