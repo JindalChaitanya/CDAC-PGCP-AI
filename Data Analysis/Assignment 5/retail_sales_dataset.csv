@@ -1,0 +1,121 @@
+order_id,date,region,category,product,units_sold,unit_price,discount,revenue,customer_age,customer_gender,payment_mode,returns
+1001,2023-01-03,North,Electronics,Laptop,2,55000,0.05,104500,34,Male,Credit Card,0
+1002,2023-01-05,South,Clothing,Shirt,10,899,0.10,8091,22,Female,UPI,1
+1003,2023-01-07,East,Furniture,Chair,3,4500,0.00,13500,45,Male,Cash,0
+1004,2023-01-09,West,Electronics,Smartphone,5,22000,0.08,101200,29,Female,Debit Card,0
+1005,2023-01-12,North,Grocery,Rice,20,250,0.00,5000,38,Female,Cash,0
+1006,2023-01-14,South,Electronics,Tablet,4,18000,0.12,63360,26,Male,Credit Card,1
+1007,2023-01-17,East,Clothing,Jeans,8,1500,0.05,11400,31,Male,UPI,0
+1008,2023-01-19,West,Furniture,Sofa,1,25000,0.10,22500,52,Female,Credit Card,0
+1009,2023-01-22,North,Grocery,Oil,15,200,0.00,3000,41,Male,Cash,0
+1010,2023-01-25,South,Electronics,Headphones,6,3500,0.07,19530,24,Female,UPI,0
+1011,2023-02-01,East,Electronics,Laptop,1,55000,0.05,52250,36,Male,Credit Card,0
+1012,2023-02-03,West,Clothing,Dress,12,1200,0.10,12960,27,Female,Debit Card,0
+1013,2023-02-07,North,Furniture,Table,2,8000,0.00,16000,48,Male,Cash,0
+1014,2023-02-10,South,Grocery,Pulses,25,150,0.00,3750,33,Female,UPI,1
+1015,2023-02-13,East,Electronics,Smartphone,3,22000,0.08,60720,22,Male,Credit Card,0
+1016,2023-02-16,West,Clothing,Kurta,9,850,0.05,7267,44,Female,Cash,0
+1017,2023-02-19,North,Electronics,Tablet,2,18000,0.12,31680,30,Male,UPI,0
+1018,2023-02-22,South,Furniture,Bed,1,35000,0.10,31500,55,Female,Credit Card,0
+1019,2023-02-25,East,Grocery,Atta,18,300,0.00,5400,37,Male,Cash,1
+1020,2023-02-28,West,Electronics,Smartwatch,7,8000,0.06,52640,28,Female,Debit Card,0
+1021,2023-03-02,North,Clothing,Jacket,5,2500,0.08,11500,35,Male,Credit Card,0
+1022,2023-03-05,South,Electronics,Laptop,3,55000,0.05,156750,42,Female,UPI,0
+1023,2023-03-08,East,Furniture,Wardrobe,1,18000,0.00,18000,50,Male,Cash,0
+1024,2023-03-11,West,Grocery,Sugar,30,80,0.00,2400,25,Female,UPI,0
+1025,2023-03-14,North,Electronics,Smartphone,4,22000,0.08,80960,32,Male,Credit Card,1
+1026,2023-03-17,South,Clothing,Saree,6,3000,0.10,16200,46,Female,Cash,0
+1027,2023-03-20,East,Electronics,Headphones,5,3500,0.07,16275,23,Male,UPI,0
+1028,2023-03-23,West,Furniture,Chair,4,4500,0.00,18000,39,Female,Debit Card,0
+1029,2023-03-26,North,Grocery,Tea,20,180,0.00,3600,28,Male,Cash,0
+1030,2023-03-29,South,Electronics,Tablet,3,18000,0.12,47520,34,Female,Credit Card,0
+1031,2023-04-02,East,Clothing,Shirt,15,899,0.10,12136,21,Male,UPI,0
+1032,2023-04-05,West,Electronics,Laptop,2,55000,0.05,104500,43,Female,Credit Card,0
+1033,2023-04-08,North,Furniture,Sofa,1,25000,0.10,22500,56,Male,Cash,0
+1034,2023-04-11,South,Grocery,Rice,22,250,0.00,5500,38,Female,UPI,1
+1035,2023-04-14,East,Electronics,Smartwatch,6,8000,0.06,45120,27,Male,Debit Card,0
+1036,2023-04-17,West,Clothing,Jeans,10,1500,0.05,14250,33,Female,Credit Card,0
+1037,2023-04-20,North,Electronics,Smartphone,7,22000,0.08,141680,29,Male,UPI,0
+1038,2023-04-23,South,Furniture,Table,2,8000,0.00,16000,47,Female,Cash,0
+1039,2023-04-26,East,Grocery,Oil,18,200,0.00,3600,41,Male,Cash,0
+1040,2023-04-29,West,Electronics,Headphones,8,3500,0.07,26040,24,Female,UPI,0
+1041,2023-05-02,North,Clothing,Dress,11,1200,0.10,11880,26,Female,Credit Card,0
+1042,2023-05-05,South,Electronics,Laptop,4,55000,0.05,209000,37,Male,Debit Card,0
+1043,2023-05-08,East,Furniture,Bed,1,35000,0.10,31500,53,Female,Cash,0
+1044,2023-05-11,West,Grocery,Pulses,28,150,0.00,4200,32,Male,UPI,0
+1045,2023-05-14,North,Electronics,Tablet,5,18000,0.12,79200,25,Female,Credit Card,1
+1046,2023-05-17,South,Clothing,Jacket,4,2500,0.08,9200,40,Male,Cash,0
+1047,2023-05-20,East,Electronics,Smartphone,6,22000,0.08,121440,31,Female,UPI,0
+1048,2023-05-23,West,Furniture,Wardrobe,2,18000,0.00,36000,48,Male,Credit Card,0
+1049,2023-05-26,North,Grocery,Atta,22,300,0.00,6600,35,Female,Cash,0
+1050,2023-05-29,South,Electronics,Smartwatch,9,8000,0.06,67680,28,Male,Debit Card,0
+1051,2023-06-01,East,Clothing,Kurta,7,850,0.05,5697,44,Female,UPI,0
+1052,2023-06-04,West,Electronics,Laptop,3,55000,0.05,156750,39,Male,Credit Card,0
+1053,2023-06-07,North,Furniture,Chair,5,4500,0.00,22500,51,Female,Cash,0
+1054,2023-06-10,South,Grocery,Sugar,35,80,0.00,2800,27,Male,UPI,0
+1055,2023-06-13,East,Electronics,Headphones,7,3500,0.07,22785,23,Female,Credit Card,0
+1056,2023-06-16,West,Clothing,Saree,8,3000,0.10,21600,45,Female,Cash,1
+1057,2023-06-19,North,Electronics,Smartphone,5,22000,0.08,101200,30,Male,Debit Card,0
+1058,2023-06-22,South,Furniture,Sofa,2,25000,0.10,45000,57,Female,Credit Card,0
+1059,2023-06-25,East,Grocery,Tea,25,180,0.00,4500,36,Male,Cash,0
+1060,2023-06-28,West,Electronics,Tablet,4,18000,0.12,63360,32,Female,UPI,0
+1061,2023-07-01,North,Clothing,Shirt,13,899,0.10,10508,22,Male,Credit Card,0
+1062,2023-07-04,South,Electronics,Laptop,2,55000,0.05,104500,44,Female,UPI,0
+1063,2023-07-07,East,Furniture,Table,3,8000,0.00,24000,50,Male,Cash,0
+1064,2023-07-10,West,Grocery,Rice,24,250,0.00,6000,39,Female,Cash,1
+1065,2023-07-13,North,Electronics,Smartwatch,8,8000,0.06,60160,26,Male,Debit Card,0
+1066,2023-07-16,South,Clothing,Jeans,9,1500,0.05,12825,34,Female,Credit Card,0
+1067,2023-07-19,East,Electronics,Smartphone,4,22000,0.08,80960,28,Male,UPI,0
+1068,2023-07-22,West,Furniture,Bed,1,35000,0.10,31500,55,Female,Cash,0
+1069,2023-07-25,North,Grocery,Oil,20,200,0.00,4000,42,Male,UPI,0
+1070,2023-07-28,South,Electronics,Headphones,6,3500,0.07,19530,25,Female,Credit Card,0
+1071,2023-08-01,East,Clothing,Dress,14,1200,0.10,15120,27,Female,Debit Card,0
+1072,2023-08-04,West,Electronics,Laptop,5,55000,0.05,261250,40,Male,Credit Card,0
+1073,2023-08-07,North,Furniture,Wardrobe,2,18000,0.00,36000,52,Female,Cash,0
+1074,2023-08-10,South,Grocery,Pulses,30,150,0.00,4500,33,Male,UPI,0
+1075,2023-08-13,East,Electronics,Tablet,3,18000,0.12,47520,24,Female,Credit Card,1
+1076,2023-08-16,West,Clothing,Jacket,6,2500,0.08,13800,38,Male,Cash,0
+1077,2023-08-19,North,Electronics,Smartphone,8,22000,0.08,161920,31,Female,UPI,0
+1078,2023-08-22,South,Furniture,Chair,4,4500,0.00,18000,49,Male,Credit Card,0
+1079,2023-08-25,East,Grocery,Atta,25,300,0.00,7500,36,Female,Cash,0
+1080,2023-08-28,West,Electronics,Smartwatch,7,8000,0.06,52640,29,Male,Debit Card,0
+1081,2023-09-01,North,Clothing,Kurta,10,850,0.05,8075,45,Female,UPI,0
+1082,2023-09-04,South,Electronics,Laptop,3,55000,0.05,156750,41,Male,Credit Card,0
+1083,2023-09-07,East,Furniture,Sofa,1,25000,0.10,22500,58,Female,Cash,0
+1084,2023-09-10,West,Grocery,Sugar,40,80,0.00,3200,28,Male,UPI,0
+1085,2023-09-13,North,Electronics,Headphones,9,3500,0.07,29295,23,Female,Credit Card,0
+1086,2023-09-16,South,Clothing,Saree,7,3000,0.10,18900,46,Female,Cash,0
+1087,2023-09-19,East,Electronics,Smartphone,5,22000,0.08,101200,32,Male,Debit Card,1
+1088,2023-09-22,West,Furniture,Table,2,8000,0.00,16000,47,Female,Credit Card,0
+1089,2023-09-25,North,Grocery,Tea,28,180,0.00,5040,37,Male,Cash,0
+1090,2023-09-28,South,Electronics,Tablet,5,18000,0.12,79200,35,Female,UPI,0
+1091,2023-10-01,East,Clothing,Shirt,16,899,0.10,12946,21,Male,Credit Card,0
+1092,2023-10-04,West,Electronics,Laptop,4,55000,0.05,209000,43,Female,Debit Card,0
+1093,2023-10-07,North,Furniture,Bed,2,35000,0.10,63000,54,Male,Cash,0
+1094,2023-10-10,South,Grocery,Rice,26,250,0.00,6500,39,Female,UPI,0
+1095,2023-10-13,East,Electronics,Smartwatch,10,8000,0.06,75200,27,Male,Credit Card,0
+1096,2023-10-16,West,Clothing,Jeans,11,1500,0.05,15675,33,Female,Cash,1
+1097,2023-10-19,North,Electronics,Smartphone,6,22000,0.08,121440,30,Male,UPI,0
+1098,2023-10-22,South,Furniture,Wardrobe,1,18000,0.00,18000,51,Female,Credit Card,0
+1099,2023-10-25,East,Grocery,Oil,22,200,0.00,4400,42,Male,Cash,0
+1100,2023-10-28,West,Electronics,Headphones,8,3500,0.07,26040,25,Female,Debit Card,0
+1101,2023-11-01,North,Clothing,Dress,13,1200,0.10,14040,26,Female,Credit Card,0
+1102,2023-11-04,South,Electronics,Laptop,5,55000,0.05,261250,38,Male,UPI,0
+1103,2023-11-07,East,Furniture,Chair,6,4500,0.00,27000,50,Female,Cash,0
+1104,2023-11-10,West,Grocery,Pulses,32,150,0.00,4800,34,Male,UPI,0
+1105,2023-11-13,North,Electronics,Tablet,4,18000,0.12,63360,25,Female,Credit Card,1
+1106,2023-11-16,South,Clothing,Jacket,5,2500,0.08,11500,40,Male,Cash,0
+1107,2023-11-19,East,Electronics,Smartphone,9,22000,0.08,181980,28,Female,Debit Card,0
+1108,2023-11-22,West,Furniture,Sofa,2,25000,0.10,45000,57,Male,Credit Card,0
+1109,2023-11-25,North,Grocery,Atta,27,300,0.00,8100,36,Female,Cash,0
+1110,2023-11-28,South,Electronics,Smartwatch,6,8000,0.06,45120,29,Male,UPI,0
+1111,2023-12-01,East,Clothing,Kurta,11,850,0.05,8882,44,Female,Credit Card,0
+1112,2023-12-04,West,Electronics,Laptop,6,55000,0.05,313500,42,Male,Debit Card,0
+1113,2023-12-07,North,Furniture,Table,3,8000,0.00,24000,53,Female,Cash,0
+1114,2023-12-10,South,Grocery,Sugar,45,80,0.00,3600,27,Male,UPI,0
+1115,2023-12-13,East,Electronics,Headphones,10,3500,0.07,32550,23,Female,Credit Card,0
+1116,2023-12-16,West,Clothing,Saree,9,3000,0.10,24300,47,Female,Cash,0
+1117,2023-12-19,North,Electronics,Smartphone,7,22000,0.08,141680,31,Male,UPI,0
+1118,2023-12-22,South,Furniture,Bed,2,35000,0.10,63000,55,Female,Credit Card,0
+1119,2023-12-25,East,Grocery,Tea,30,180,0.00,5400,38,Male,Cash,0
+1120,2023-12-28,West,Electronics,Tablet,6,18000,0.12,95040,33,Female,Debit Card,0
