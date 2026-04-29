@@ -2,6 +2,7 @@
 // Submitted by Chaitanya Jindal
 
 // Q1. Check whether a number entered by the user is even or odd.
+package Assignment1;
 
 import java.util.Scanner;
 
