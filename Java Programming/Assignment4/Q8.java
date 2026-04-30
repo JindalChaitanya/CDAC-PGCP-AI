@@ -9,14 +9,37 @@
 // d) In main call AddStudent method of student class.
 
 package Assignment4;
-
 import java.util.Scanner;
+
+interface Admission {
+    void registration();
+}
+
+class Student {
+    void Addstudent() {
+        class MtechStudent implements Admission {
+            public void registration() {
+                System.out.println("New Student Registered");
+            }
+        }
+        MtechStudent m = new MtechStudent();
+        m.registration();
+
+        Admission a = new Admission() {
+            public void registration() {
+                System.out.println("Anonymous Student Registered");
+            }
+        };
+        a.registration();
+    }
+}
 
 public class Q8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Write your code here
+        Student s = new Student();
+        s.Addstudent();
 
         sc.close();
     }

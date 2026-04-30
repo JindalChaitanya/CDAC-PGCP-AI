@@ -11,14 +11,96 @@
 // Balance for account 123: 1300
 
 package Assignment4;
+import java.util.*;
 
-import java.util.Scanner;
+class BankAccount {
+    int accountNumber;
+    String name;
+    double balance;
+    
+    BankAccount(int accountNumber, String name, double balance) {
+        this.accountNumber = accountNumber;
+        this.name = name;
+        this.balance = balance;
+    }
+
+    void deposit(double amount) {
+        balance += amount;
+    }
+
+    void withdraw(double amount) {
+        if (balance >= amount) {
+            balance -= amount;
+        } else {
+            System.out.println("Insufficient balance");
+        }
+    }
+
+    double getBalance() {
+        return balance;
+    }
+}
 
 public class Q12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        HashMap<Integer, BankAccount> accounts = new HashMap<>();
 
-        // Write your code here
+        System.out.println("Enter commands: (createAccount, deposit, withdraw, balance) or 'exit' to quit");
+
+        while (true) {
+            String line = sc.nextLine();
+
+            if (line.equalsIgnoreCase("exit")) break;
+            if (line.trim().isEmpty()) continue;
+
+            String[] tokens = line.split("\\s+");
+            String operation = tokens[0];
+
+            try {
+                int accountNumber;
+                double amount;
+
+                switch (operation) {
+                    case "createAccount":
+                        accountNumber = Integer.parseInt(tokens[1]);
+                        String name = tokens[2];
+                        double balance = Double.parseDouble(tokens[3]);
+                        accounts.put(accountNumber, new BankAccount(accountNumber, name, balance));
+                        break;
+
+                    case "deposit":
+                        accountNumber = Integer.parseInt(tokens[1]);
+                        amount = Double.parseDouble(tokens[2]);
+                        if (accounts.containsKey(accountNumber)) {
+                            accounts.get(accountNumber).deposit(amount);
+                        }
+                        break;
+
+                    case "withdraw":
+                        accountNumber = Integer.parseInt(tokens[1]);
+                        amount = Double.parseDouble(tokens[2]);
+                        if (accounts.containsKey(accountNumber)) {
+                            accounts.get(accountNumber).withdraw(amount);
+                        }
+                        break;
+
+                    case "balance":
+                        accountNumber = Integer.parseInt(tokens[1]);
+                        if (accounts.containsKey(accountNumber)) {
+                            System.out.println("Balance for account " + accountNumber + ": " 
+                                + (int)accounts.get(accountNumber).getBalance());
+                        }
+                        break;
+
+                    default:
+                        System.out.println("Invalid command");
+                }
+
+            } catch (Exception e) {
+                System.out.println("Invalid input format");
+            }
+        }
 
         sc.close();
     }

@@ -16,14 +16,37 @@
 // Wrap the calls in a try-catch block to catch
 
 package Assignment4;
-
 import java.util.Scanner;
+
+class SecurityManager {
+    public static void checkPassword(String password) throws Exception {
+        if (password == null || password.isEmpty()) {
+            throw new Exception("Authentication failure: Password cannot be empty.");
+        }
+        System.out.println("Password check successful.");
+    }
+
+    public static void processData(String password) {
+        try {
+            checkPassword(password);
+            System.out.println("Data successfully processed.");
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+}
 
 public class Q6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Write your code here
+        try {
+            SecurityManager.processData("secret");
+            SecurityManager.processData(null);
+
+        } catch (Exception e) {
+            System.out.println("Main caught exception: " + e.getMessage());
+        }
 
         sc.close();
     }
