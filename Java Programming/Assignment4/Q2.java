@@ -23,7 +23,22 @@ public class Q2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Write your code here
+        System.out.print("Enter the size of the array: ");
+        int N = sc.nextInt();
+        int[] arr = new int[N];
+        System.out.println("Enter the array elements:");
+        for (int i = 0; i < N; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.print("Enter the index: ");
+        int K = sc.nextInt();
+
+        if (K < 0 || K >= N) {
+            System.out.println("Index out of bounds");
+        } else {
+            System.out.println("Element at index " + K + ": " + arr[K]);
+        }
 
         sc.close();
     }
