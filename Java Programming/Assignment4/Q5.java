@@ -12,14 +12,44 @@
 // • ArithmeticException input (e.g., "10", "0").
 
 package Assignment4;
-
 import java.util.Scanner;
+
+class InputSafeCalculator {
+    public static String calculateRatio(String num1Str, String num2Str) {
+        try {
+            int num1 = Integer.parseInt(num1Str);
+            int num2 = Integer.parseInt(num2Str);
+            int result = num1 / num2;
+            return String.valueOf(result);
+        } catch (NumberFormatException | ArithmeticException e) {
+            System.out.println("Error: " + e.getClass().getSimpleName() + " occurred.");
+            return "Error: Invalid operation.";
+        } finally {
+            System.out.println("Cleanup complete: Ratio calculation finished.");
+        }
+    }
+}
 
 public class Q5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Write your code here
+        System.out.print("Enter number of test cases: ");
+        int t = sc.nextInt();
+        sc.nextLine();
+
+        for (int i = 1; i <= t; i++) {
+            System.out.println("\nTest Case " + i);
+
+            System.out.print("Enter first number: ");
+            String num1 = sc.nextLine();
+
+            System.out.print("Enter second number: ");
+            String num2 = sc.nextLine();
+
+            System.out.println("Result: " + 
+                InputSafeCalculator.calculateRatio(num1, num2));
+        }
 
         sc.close();
     }
