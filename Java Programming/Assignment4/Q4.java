@@ -58,8 +58,9 @@ public class Q4 {
             System.out.println(e.getMessage());
         } catch (Exception e) {
             System.out.println("Invalid Input: " + e.getMessage());
+        } finally {
+            sc.close();
         }
 
-        sc.close();
     }
 }
