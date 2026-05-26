@@ -1,1 +1,2 @@
 File from b2
+b3 modifies b2_file.txt
