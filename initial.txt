@@ -1,1 +1,2 @@
 Update from b1
+Extra line in initial.txt
