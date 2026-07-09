@@ -50,7 +50,7 @@ If you want to explore the code or run it locally, follow these simple steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/cdac-pgcp-ai.git
+   git clone https://github.com/JindalChaitanya/cdac-pgcp-ai.git
    ```
 2. **Navigate into the directory:**
    ```bash
