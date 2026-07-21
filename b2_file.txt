@@ -1,3 +1,0 @@
-File from b2
-b3 modifies b2_file.txt
-Extra line in b2_file.txt
